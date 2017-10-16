@@ -70,7 +70,7 @@ public class Test3 {
 		select1.selectByVisibleText("Paris");
 		
 
-
+		//
 		// Wait for 5 Sec
 		Thread.sleep(5000);
 
