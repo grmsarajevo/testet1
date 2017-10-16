@@ -139,7 +139,7 @@ public class Test3 {
 		Thread.sleep(2000);
 		driver.findElement(By.linkText("Entries")).click();
 		Thread.sleep(2000);
-		//
+		
 		
 		String countryString = driver.findElement(By.xpath("/html/body/div/section/div/div/div/form/div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[2]/div/div/a")).getText().toString();
 		Thread.sleep(2000);
