@@ -130,15 +130,15 @@ public class Test3 {
 		driver.findElement(By.name("username")).sendKeys("NedimO");
 		driver.findElement(By.name("password")).sendKeys("Nedim12345");
 		driver.findElement(By.className("btn-success")).click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		driver.findElement(By.className("icon-umb-contour")).click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		driver.findElement(By.xpath("/html/body/div/div[1]/div[2]/div[1]/div[2]/ul/li/ul/li[1]/div/ins")).click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		driver.findElement(By.xpath("/html/body/div/div[1]/div[2]/div[1]/div[2]/ul/li/ul/li[1]/ul/li[1]/div/ins")).click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		driver.findElement(By.linkText("Entries")).click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		//
 		//
 		String countryString = driver.findElement(By.xpath("/html/body/div/section/div/div/div/form/div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[2]/div/div/a")).getText().toString();
