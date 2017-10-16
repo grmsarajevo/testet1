@@ -137,7 +137,7 @@ public class Test3 {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("/html/body/div/div[1]/div[2]/div[1]/div[2]/ul/li/ul/li[1]/ul/li[1]/div/ins")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.linkText("Entries1")).click();
+		driver.findElement(By.linkText("Entries")).click();
 		Thread.sleep(2000);
 		
 		
